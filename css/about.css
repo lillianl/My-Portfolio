@@ -6,13 +6,12 @@
 }
 
 
-/*
+
 :not(body):not(html) { 
 box-sizing:border-box; 
 border:1px dashed #000;
 }
 
-*/
 
 
 .columns {
@@ -97,7 +96,7 @@ color: #3E4E97;
 
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'cornerstoneregular'; 
     color:#3E4E97;    
 }
