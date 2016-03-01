@@ -60,7 +60,18 @@ color: #3E4E97;
 
 /*link styling*/
 
-a:link {
+section.links a {
+color: #3E4E97;   
+font-family: 'cornerstoneregular';
+font-size: 1.2em; 
+text-align: center; 
+}
+
+section.links a:hover {
+color: white;   
+}
+
+a {
 color: white;  
 font-family: 'cornerstoneregular';
 font-size: 1.2em; 
@@ -69,16 +80,49 @@ text-align: center;
 
 
 a:hover {
-color:indianred;  
+color: white; 
+}
+
+a#contact {    
+ color: #3E4E97;   
 }
 
 a#contact:hover{    
  color: #3E4E97;   
 }
 
-a:visited { 
-color:white;  
+
+nav.top-bar a:visited { 
+color: #3E4E97;  
 }
+
+nav.top-bar a{ 
+    color: #3E4E97;   
+
+}
+
+nav.top-bar a:hover { 
+    color: white;   
+
+}
+
+a.links {
+    color: #3E4E97; 
+}
+
+a.links:hover {
+    color: white; 
+}
+
+a.links:hover {
+ color: #3E4E97 
+}
+
+
+
+
+
+
 
 /* NAV */ 
 .top-bar {
@@ -137,6 +181,7 @@ color:#3E4E97;
 
 
 .button {
+    border-radius: 25px;
     width:200px;
     font-size:1.1em;
     font-family: 'cornerstoneregular';
@@ -144,6 +189,8 @@ color:#3E4E97;
     background-color: #3E4E97;
     margin-right:10px;
     }
+
+
 
 
 .expand { 
