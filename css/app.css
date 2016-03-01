@@ -61,7 +61,7 @@ color: #3E4E97;
 /*link styling*/
 
 a:link {
-color: #3E4E97;  
+color: white;  
 font-family: 'cornerstoneregular';
 font-size: 1.2em; 
 text-align: center; 
@@ -69,7 +69,7 @@ text-align: center;
 
 
 a:hover {
-color:white;  
+color:indianred;  
 }
 
 a#contact:hover{    
