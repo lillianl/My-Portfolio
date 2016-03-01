@@ -1,0 +1,17 @@
+/*
+:not(body):not(html) { 
+box-sizing:border-box; 
+border:1px dashed #000;
+}
+
+*/
+
+.main {
+    
+  background-color:#F3F4F4;
+}
+
+
+.process { }
+
+.research { }

@@ -87,6 +87,19 @@ a:visited {
 color: #3E4E97;
 }
 
+article.timeline a {
+font-family: 'nexa_regularregular';
+text-decoration: underline;
+font-size:1em;
+}
+
+article.timeline a:hover {
+color:#F79A6E;
+}
+
+
+
+
 /* NAV */ 
 .top-bar {
 background-color:#F3F4F4;
