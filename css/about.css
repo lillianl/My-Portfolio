@@ -5,6 +5,12 @@
     max-width:1100px;
 }
 
+.nowrap {
+    width:100%; 
+    margin: 0 auto;
+    max-width:1100px;
+}
+
 
 /*
 :not(body):not(html) { 
@@ -61,41 +67,65 @@ color: #3E4E97;
 
 /*link styling*/
 
-a:link {
-color: #3E4E97;  
+
+section.links a {
+color: #3E4E97;   
 font-family: 'cornerstoneregular';
 font-size: 1.2em; 
 text-align: center; 
 }
 
-a.button:link { 
-color: #FFF;
+section.links a:hover {
+color: white;   
 }
 
-
-
-a#contact:hover{    
- color: #3E4E97;  
+a {
+color: white;  
+font-family: 'cornerstoneregular';
+font-size: 1.2em; 
+text-align: center; 
 }
 
 
 a:hover {
-    color: white;
+color: white; 
 }
 
-a:visited { 
-color: #3E4E97;
+a#contact {    
+ color: #3E4E97;   
 }
 
-article.timeline a {
-font-family: 'nexa_regularregular';
-text-decoration: underline;
-font-size:1em;
+a#contact:hover{    
+ color: #3E4E97;   
 }
 
-article.timeline a:hover {
-color:#F79A6E;
+
+nav.top-bar a:visited { 
+color: #3E4E97;  
 }
+
+nav.top-bar a{ 
+    color: #3E4E97;   
+
+}
+
+nav.top-bar a:hover { 
+    color: white;   
+
+}
+
+a.links {
+    color: #3E4E97; 
+}
+
+a.links:hover {
+    color: white; 
+}
+
+a.links:hover {
+ color: #3E4E97 
+}
+
 
 
 
@@ -178,7 +208,7 @@ text-align: center;
 background-color: white;
 }
 
-    /*perspective section*/ 
+/*perspective section*/ 
 #perspective {
     padding:50px 0px 50px 0px;
 }
