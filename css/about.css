@@ -127,6 +127,21 @@ a.links:hover {
 }
 
 
+article.timeline div a {
+   font-family: 'nexa_regularregular';
+    color: #3E4E97;
+   font-size: 1em;
+    text-decoration: underline;
+
+}
+
+article.timeline div a:hover {
+   font-family: 'nexa_regularregular';
+    color: #F79A6E;
+   font-size: 1em;
+
+
+}
 
 
 
