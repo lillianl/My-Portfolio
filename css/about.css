@@ -116,7 +116,7 @@ nav.top-bar a:hover {
 
 }
 
-nav.top-bar-left a:hover{ 
+nav div.top-bar-left h3 a:hover {
     color: #3E4E97;     
 
 }
