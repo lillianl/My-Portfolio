@@ -92,11 +92,13 @@ color: white;
 }
 
 a#contact {    
- color: #3E4E97;   
+ color: #F3F4F4;
+;   
 }
 
 a#contact:hover{    
- color: #3E4E97;   
+ color: #F3F4F4;
+7;   
 }
 
 
@@ -271,8 +273,9 @@ padding-top: 10px;
     border-bottom-style: solid;
 }
 
-#lastTimeline { 
+section article div.timelineContainer#lastTimeline {
 border-style:none;
+margin-bottom:50px;
 }
 
 li{ 
@@ -312,7 +315,10 @@ font-size:1em;
 
 footer {
     height:auto;
-    background-color: #F3F4F4;
+    background-color: #3E4E97;
 }
 
+footer div p { 
+color: #F3F4F4;
+}
 
