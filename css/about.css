@@ -112,7 +112,13 @@ nav.top-bar a{
 }
 
 nav.top-bar a:hover { 
-    color:  #F79A6E;  
+    color: #F79A6E;  
+
+}
+
+nav.top-left-bar a:hover { 
+    color: #3E4E97;   
+ ;  
 
 }
 
