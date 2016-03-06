@@ -165,9 +165,13 @@ color: #3E4E97;
 
 
 h3 {
-    font-size: 1.5em;
+    font-size:1.2em;
     font-family: 'cornerstoneregular'; 
     color:#3E4E97;    
+}
+
+h3#timelineTitle { 
+    font-size:1.5em;
 }
 
 
