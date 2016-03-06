@@ -161,11 +161,12 @@ article.timeline div a:hover {
 background-color:#F3F4F4;
 font-family: 'cornerstoneregular';
 color: #3E4E97;
+padding-top: 1.5%;
 }
 
 
 h3 {
-    font-size:1.2em;
+    font-size:1.3em;
     font-family: 'cornerstoneregular'; 
     color:#3E4E97;    
 }
