@@ -1,149 +1,114 @@
 /*
-:not(body):not(html) { 
-box-sizing:border-box; 
+:not(body):not(html) {
+box-sizing:border-box;
 border:1px dashed #000;
 }
 */
 
 
-/* GENERAL */ 
-.wrap { 
-    width:90%; 
-    margin: 0 auto;
-    max-width:1100px;
-}
+/* GENERAL */
 
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
 .nowrap {
-    width:100%; 
-    margin: 0 auto;
-    max-width:1100px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
 }
-
 .columns {
-    min-height:80px; 
+  min-height: 80px;
 }
-
 @font-face {
-    font-family: 'cornerstoneregular';
-    src: url('../font/cornerstone-webfont.eot');
-    src: url('../font/cornerstone-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/cornerstone-webfont.woff2') format('woff2'),
-         url('../font/cornerstone-webfont.woff') format('woff'),
-         url('../font/cornerstone-webfont.ttf') format('truetype'),
-         url('../font/cornerstone-webfont.svg#cornerstoneregular') format('svg');
-    font-weight: normal;
-    font-style: normal;x
+  font-family: 'cornerstoneregular';
+  src: url('../font/cornerstone-webfont.eot');
+  src: url('../font/cornerstone-webfont.eot?#iefix') format('embedded-opentype'), url('../font/cornerstone-webfont.woff2') format('woff2'), url('../font/cornerstone-webfont.woff') format('woff'), url('../font/cornerstone-webfont.ttf') format('truetype'), url('../font/cornerstone-webfont.svg#cornerstoneregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  x
 }
-
-
 @font-face {
-    font-family: 'nexa_regularregular';
-    src: url('../font/nexa_regular-webfont.eot');
-    src: url('../font/nexa_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/nexa_regular-webfont.woff2') format('woff2'),
-         url('../font/nexa_regular-webfont.woff') format('woff'),
-         url('../font/nexa_regular-webfont.ttf') format('truetype'),
-      url('../font/nexa_regular-webfont.svg#nexa_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'nexa_regularregular';
+  src: url('../font/nexa_regular-webfont.eot');
+  src: url('../font/nexa_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/nexa_regular-webfont.woff2') format('woff2'), url('../font/nexa_regular-webfont.woff') format('woff'), url('../font/nexa_regular-webfont.ttf') format('truetype'), url('../font/nexa_regular-webfont.svg#nexa_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-/*subtitle*/ 
-div h4{
-border-bottom-width: 6px;
-border-bottom-color: #3E4E97;
-border-bottom-style: solid;
+/*subtitle*/
+
+div h4 {
+  border-bottom-width: 6px;
+  border-bottom-color: #3E4E97;
+  border-bottom-style: solid;
 }
 
+/*tagline*/
 
-/*tagline*/ 
 #tagline {
-font-size: 1.5em;
-
+  font-size: 1.5em;
 }
 
 /*main*/
 
-.main {  
-  margin-top:30px;
-  background-color:#F3F4F4;
+.main {
+  margin-top: 30px;
+  background-color: #F3F4F4;
 }
-
-
-h1{ 
-font-size: 1.2em;
+h1 {
+  font-size: 1.2em;
 }
-
-h3 { 
-font-size:2.5em;  
+h3 {
+  font-size: 2.5em;
 }
-
-h2 { 
-font-size:1em;
-font-family: 'nexa_regularregular';
-padding-bottom: 10px;
+h2 {
+  font-size: 1em;
+  font-family: 'nexa_regularregular';
+  padding-bottom: 10px;
 }
-
-h4{ 
-padding: 30px 0px 7px 0px;
+h4 {
+  padding: 30px 0px 7px 0px;
 }
 
 /*section*/
-section.process p { 
-padding: 20px 0px 0px 0px;
-}
 
+section.process p {
+  padding: 20px 0px 0px 0px;
+}
 article section {
-border-bottom-style: dotted;
-border-bottom-width: 3px;
-border-bottom-color: #3E4E97;   
+  border-bottom-style: dotted;
+  border-bottom-width: 3px;
+  border-bottom-color: #3E4E97;
 }
-
 .graphicStandard {
-    padding-bottom: 50px;
-    
-    
+  padding-bottom: 50px;
 }
-
-
-
 img {
-padding: 10px 0px;
+  padding: 10px 0px;
 }
-
 
 /*IDS*/
 
-row div#description { 
-padding-top:30px;
+row div#description {
+  padding-top: 30px;
 }
-
-div#mainDescription { 
-margin:30px 0px;
+div#mainDescription {
+  margin: 30px 0px;
 }
-
-
-#description { 
-padding: 20px;
+#description {
+  padding: 20px;
 }
-
-#pullout { 
-
-font-size: 1.4em;
-line-height: 1.5em;
-border-left-style: solid;
-border-left-width: 6px;
-border-left-color: #3E4E97;
-padding-left: 15px;
-padding-top: 0px;
+#pullout {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  border-left-style: solid;
+  border-left-width: 6px;
+  border-left-color: #3E4E97;
+  padding-left: 15px;
+  padding-top: 0px;
 }
-
-
-.styleDevelopment div { 
-margin-top:20px;
+.styleDevelopment div {
+  margin-top: 20px;
 }
-
-
-
-
