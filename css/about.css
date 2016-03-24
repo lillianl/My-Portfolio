@@ -77,7 +77,7 @@ a#contact:hover {
   7;
 }
 nav.top-bar a:visited {
-  color: #3E4E97;
+
 }
 nav.top-bar a {
   color: #3E4E97;
@@ -111,6 +111,12 @@ article.timeline div a:hover {
   font-family: 'nexa_regularregular';
   color: #F79A6E;
   font-size: 1em;
+}
+
+a#paparazziLink {
+color: #F79A6E;
+font-family: 'nexa_regularregular'; 
+font-size: 1em;    
 }
 
 /* NAV */
@@ -260,3 +266,4 @@ footer {
 footer div p {
   color: #F3F4F4;
 }
+

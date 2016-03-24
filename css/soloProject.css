@@ -89,6 +89,8 @@ img {
   padding: 10px 0px;
 }
 
+img#
+
 /*IDS*/
 
 row div#description {
@@ -112,3 +114,15 @@ div#mainDescription {
 .styleDevelopment div {
   margin-top: 20px;
 }
+
+
+section.styleDevelopment article div p#verticalDescrpition{ 
+padding-top: 50px;
+}
+
+section#mainsection div#mainDescrption.row p a#paparazziLink {
+color: #3E4E97;
+font-family: 'nexa_regularregular'; 
+    
+}
+
