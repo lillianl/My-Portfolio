@@ -3,8 +3,8 @@
 box-sizing:border-box;
 border:1px dashed #000;
 }
-*/
 
+*/
 
 /* GENERAL */
 
@@ -126,3 +126,11 @@ font-family: 'nexa_regularregular';
     
 }
 
+iframe { 
+padding:30px 0px 0px 50px;
+
+}
+
+div#prototype {
+    background-color: #e9b94f;
+}
