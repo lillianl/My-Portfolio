@@ -1,4 +1,4 @@
-/* 
+/*
 :not(body):not(html) {
 box-sizing:border-box;
 border:1px dashed #000;
@@ -128,7 +128,7 @@ div#mainDescription {
   padding-top: 0px;
 }
 .styleDevelopment div {
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 
