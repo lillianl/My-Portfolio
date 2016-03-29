@@ -1,4 +1,4 @@
-/*
+/* 
 :not(body):not(html) {
 box-sizing:border-box;
 border:1px dashed #000;
@@ -72,8 +72,9 @@ h4 {
 
 /*section*/
 
-section.process { 
-padding:40px 0px;
+section.processpieces {
+    padding:60px 0px;
+    
 }
 
 section.process p {
@@ -90,8 +91,13 @@ article section {
   border-bottom-color: #3E4E97;
 }
 .graphicStandard {
-  padding-bottom: 50px;
+  padding: 70px 0px;
+  background-color: white;
+  margin-bottom:50px;
+    
 }
+
+
 img {
   padding: 10px 0px;
 }
@@ -204,6 +210,8 @@ background-color: #F8AD3F;
 width: 100%;
 
 }
+
+
 
 section.mainimage img {   
   margin:auto;  
