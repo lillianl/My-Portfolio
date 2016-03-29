@@ -4,9 +4,7 @@ box-sizing:border-box;
 border:1px dashed #000;
 }
 
-*/
-
-/* GENERAL */
+/* GENERAL /*
 
 .wrap {
   width: 90%;
@@ -27,7 +25,6 @@ border:1px dashed #000;
   src: url('../font/cornerstone-webfont.eot?#iefix') format('embedded-opentype'), url('../font/cornerstone-webfont.woff2') format('woff2'), url('../font/cornerstone-webfont.woff') format('woff'), url('../font/cornerstone-webfont.ttf') format('truetype'), url('../font/cornerstone-webfont.svg#cornerstoneregular') format('svg');
   font-weight: normal;
   font-style: normal;
-  x
 }
 @font-face {
   font-family: 'nexa_regularregular';
@@ -43,6 +40,7 @@ div h4 {
   border-bottom-width: 6px;
   border-bottom-color: #3E4E97;
   border-bottom-style: solid;
+    width: 50%;
 }
 
 /*tagline*/
@@ -74,9 +72,18 @@ h4 {
 
 /*section*/
 
+section.process { 
+padding:40px 0px;
+}
+
 section.process p {
   padding: 20px 0px 0px 0px;
 }
+
+article.process {
+padding:30px 0px;
+}
+
 article section {
   border-bottom-style: dotted;
   border-bottom-width: 3px;
@@ -97,8 +104,10 @@ row div#description {
   padding-top: 30px;
 }
 div#mainDescription {
-  margin: 30px 0px;
+  margin-top: 20px;
+  margin-bottom:100px;
   padding-right:50px;
+    
 }
 #description {
   padding: 20px;
@@ -113,20 +122,23 @@ div#mainDescription {
   padding-top: 0px;
 }
 .styleDevelopment div {
-  margin-top: 20px;
+  padding: 20px 20px;
 }
 
 
 section.styleDevelopment article div p#verticalDescrpition{ 
-padding-top: 50px;
+padding-top: 30px;
 }
 
 section#mainsection div#mainDescrption.row p a#paparazziLink {
 color: #3E4E97;
-font-family: 'nexa_regularregular'; 
-    
+font-family: 'nexa_regularregular';     
 }
 
+section#mainSection { 
+padding-top:50px;
+
+}
 
 div iframe.columns { 
 padding-top:30px;
@@ -137,4 +149,69 @@ padding-top:30px;
 
 div#prototype {
     background-color: #e9b94f;
+    width:100%;
+}
+
+
+section#colortest { 
+width: 100%;
+background-color:#C6E5E8;
+padding:50px 0px;
+
+}
+
+section#styleguide { 
+padding-bottom:40px;
+}
+
+#finalwords {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  padding-top: 0px;
+}
+
+article#firststep { 
+margin-top:40px;
+
+}
+
+#finalthoughts { 
+ background-image: url("../projects/AimHigh/images/finalbg.png");
+}
+
+
+/*main echo*/
+iframe#echo { 
+ 
+margin-left:15%;
+}
+
+section#startupweekend { 
+background-color:#EBBA50;
+padding-bottom:50px;
+}
+
+section#Content div { 
+padding-top:10px;
+padding-bottom:10px;
+}
+
+section#Content div:nth-child(2) { 
+padding-top:0px;
+}
+
+/*main paparazzi*/
+section.mainimage { 
+background-color: #F8AD3F;
+width: 100%;
+
+}
+
+section.mainimage img {   
+  margin:auto;  
+}
+
+section#illustration { 
+margin-bottom:40px;
+
 }
