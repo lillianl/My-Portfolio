@@ -36,11 +36,36 @@ border:1px dashed #000;
 
 /*subtitle*/
 
+.headtitle { 
+position:relative;
+height:100%;
+}
+
+
+section div img#arrowleft { 
+position: absolute;
+right: 50px;
+}
+
+.arrow img { 
+position: absolute;
+padding:0px 5px;
+margin-bottom:20px;
+bottom: 0;
+right: 0px;
+}
+
+h3#projectTitle { 
+font-size:2.5em;
+    
+}
+
+
 div h4 {
   border-bottom-width: 6px;
   border-bottom-color: #3E4E97;
   border-bottom-style: solid;
-    width: 50%;
+  width: 50%;
 }
 
 /*tagline*/
@@ -59,8 +84,11 @@ h1 {
   font-size: 1.2em;
 }
 h3 {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
+
+
+
 h2 {
   font-size: 1em;
   font-family: 'nexa_regularregular';
