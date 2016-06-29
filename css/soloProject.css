@@ -109,7 +109,7 @@ section.process div {
 
 section.processpieces {
     padding:20px 0px 50px 0px;
-       background-color:white;
+    background-color:white;
     
 }
 
@@ -146,7 +146,7 @@ row div#description {
   padding-top: 30px;
 }
 div#mainDescription {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom:100px;
   padding-right:50px;
     
@@ -164,6 +164,11 @@ div#mainDescription {
   padding-top: 0px;
 }
 
+#heading {
+  font-size: 1.4em;
+  line-height: 1.5em; 
+}
+
 
 
 .styleDevelopment div {
@@ -171,7 +176,7 @@ div#mainDescription {
 }
 
 section.styleDevelopment {
-    padding-bottom: 50px;
+   
 }
 
 
@@ -251,16 +256,70 @@ padding-top:0px;
 section.mainimage { 
 background-color: #F8AD3F;
 width: 100%;
-
+max-width:0px;
 }
 
-
+section#headerimage {
+max-width:100%;
+}
 
 section.mainimage img {   
-  margin:auto;  
+  margin:auto; 
+  max-width:0px;
 }
 
 section#illustration { 
 margin-bottom:40px;
 
+}
+
+/*challenge*/
+
+
+section.challenge {
+     padding-bottom: 150px;
+}
+section div#statscontainer {
+}
+
+
+div.row.stats p.number {
+    font-family:'cornerstoneregular';
+    font-size: 50px;
+    height:100%;
+    padding-bottom: 20px;
+    line-height: 1em;
+    
+}
+
+div.row.stats p.number2 {
+    font-size: 25px;
+    height:100%;
+    line-height: 1em;
+}
+
+section.challenge div.numbercontainer {
+margin-top:10%;
+padding-left: 50px;
+}
+
+/*DBT Cards Specific*/ 
+
+.largeNum { 
+font-size: 3em;
+font-family: 'cornerstoneregular';
+}
+
+
+section article.mockups div#numberedText{ 
+padding:0px;
+}
+
+
+section div#numbered { 
+padding-top:3%;
+}
+
+section div#numberedSection {
+    padding:5px;
 }
