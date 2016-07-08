@@ -22,37 +22,33 @@ border:1px dashed #000;
 .columns {
   min-height: 80px;
 }
-@font-face {
-  font-family: 'cornerstoneregular';
-  src: url('../font/cornerstone-webfont.eot');
-  src: url('../font/cornerstone-webfont.eot?#iefix') format('embedded-opentype'), url('../font/cornerstone-webfont.woff2') format('woff2'), url('../font/cornerstone-webfont.woff') format('woff'), url('../font/cornerstone-webfont.ttf') format('truetype'), url('../font/cornerstone-webfont.svg#cornerstoneregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  x
-}
-@font-face {
-  font-family: 'nexa_regularregular';
-  src: url('../font/nexa_regular-webfont.eot');
-  src: url('../font/nexa_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/nexa_regular-webfont.woff2') format('woff2'), url('../font/nexa_regular-webfont.woff') format('woff'), url('../font/nexa_regular-webfont.ttf') format('truetype'), url('../font/nexa_regular-webfont.svg#nexa_regularregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 body {
   background-color: #F3F4F4;
 }
 p {
   font-size: 1.01em;
-  font-family: 'nexa_regularregular';
+  font-family: 'Lato', sans-serif; 
   margin-bottom: 0px;
   line-height: 23px;
   color: #3E4E97;
 }
 
+
+#bodyHeading {
+padding-top:25%;
+    
+}
+
+#bodyHeading h3{
+  font-weight: 400;  
+    
+}
 /*link styling*/
 
 section.links a {
   color: #3E4E97;
-  font-family: 'cornerstoneregular';
+   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
   text-align: center;
 }
@@ -61,7 +57,7 @@ section.links a:hover {
 }
 a {
   color: white;
-  font-family: 'cornerstoneregular';
+   font-family: 'Playfair Display', serif;
   font-size: 1.2em;
   text-align: center;
 }
@@ -97,25 +93,25 @@ a.links:hover {
 a.links:hover {
   color: #3E4E97
 }
-section.hero div a {
-  font-family: 'nexa_regularregular';
+section.aboutBio div a {
+  font-family: 'Lato', sans-serif; 
   color: #F79A6E;
   font-size: 1em;
 }
 article.timeline div a {
-  font-family: 'nexa_regularregular';
+  font-family: 'Lato', sans-serif; 
   color: #F79A6E;
   font-size: 1em;
 }
 article.timeline div a:hover {
-  font-family: 'nexa_regularregular';
+  font-family: 'Lato', sans-serif; 
   color: #F79A6E;
   font-size: 1em;
 }
 
 a#paparazziLink {
 color: #F79A6E;
-font-family: 'nexa_regularregular'; 
+  font-family: 'Lato', sans-serif; 
 font-size: 1em;    
 }
 
@@ -123,17 +119,22 @@ font-size: 1em;
 
 .top-bar {
   background-color: #F3F4F4;
-  font-family: 'cornerstoneregular';
+ font-family: 'Playfair Display', serif;
   color: #3E4E97;
   padding-top: 1.5%;
 }
 h3 {
   font-size: 1.3em;
-  font-family: 'cornerstoneregular';
+  font-family: 'Playfair Display', serif;
   color: #3E4E97;
 }
 h3#timelineTitle {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  text-align: center;
+  font-style:italic;
+  font-weight: 700;
+  padding-bottom: 2%;
+  
 }
 .top-bar-left {
   border-bottom-width: 7px;
@@ -148,19 +149,34 @@ h3#timelineTitle {
   color: #3E4E97;
 }
 
-/*HERO*/
-
-.hero {
-  background-color: #F3F4F4;
-  padding: 30px 0px 80px 0px;
-  height: auto;
-  font-family: 'cornerstoneregular';
-}
 img {
   float: left;
+  padding: 10px 0px;
+}
+
+
+/*HERO*/
+
+.aboutBio {
+  background-color: #f0f0f0;
+  height: auto;
+   font-family: 'Playfair Display', serif;
+  padding-bottom:10%;
+  
+
+}
+
+
+
+section.aboutBio img {
+margin-top:37%;
+
+}
+
+
 }
 .bio {
-  font-family: 'nexa_regularregular';
+  font-family: 'Lato', sans-serif; 
   padding: 15px 30px 50px 50px;
   margin-top: 3em;
   color: #3E4E97;
@@ -168,7 +184,7 @@ img {
 .button {
   width: 200px;
   font-size: 1.1em;
-  font-family: 'cornerstoneregular';
+  font-family: 'Playfair Display', serif;
   color: #FFF;
   background-color: #3E4E97;
   margin-right: 10px;
@@ -194,7 +210,7 @@ img {
 }
 h4 {
   font-size: 1.7em;
-  font-family: 'cornerstoneregular';
+   font-family: 'Playfair Display', serif;
   color: #3E4E97;
 }
 #believe {
@@ -206,7 +222,7 @@ h4 {
 }
 h2 {
   font-size: 2em;
-  font-family: 'cornerstoneregular';
+ font-family: 'Playfair Display', serif;
   color: #3E4E97;
   text-align: left;
   float: left;
@@ -216,11 +232,20 @@ h2 {
 }
 #yearContent {
   padding-top: 10px;
+
+}
+
+#yearContent p{ 
+font-family: 'Playfair Display', serif;
+padding-bottom: 3%;
+font-weight:700;
+
+
 }
 .timelineContainer {
   padding: 40px 30px 40px 20px;
-  border-bottom-width: 6px;
-  border-bottom-color: #3E4E97;
+  border-bottom-width: 1.7px;
+  border-bottom-color: #d9d9d9;
   border-bottom-style: solid;
 }
 section article div.timelineContainer#lastTimeline {
@@ -229,7 +254,7 @@ section article div.timelineContainer#lastTimeline {
 }
 li {
   font-size: 1em;
-  font-family: 'nexa_regularregular';
+  font-family: 'Lato', sans-serif; 
   margin-bottom: 0px;
   line-height: 23px;
   color: #3E4E97;
@@ -266,6 +291,7 @@ footer {
 footer div p {
   color: #F3F4F4;
 }
+
 
 
 
