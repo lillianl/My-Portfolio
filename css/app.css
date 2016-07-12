@@ -14,6 +14,7 @@ width: 98%;
     
 }
 
+
 /*
 
 :not(body):not(html) {
@@ -292,4 +293,13 @@ footer {
 }
 footer div p {
   color: #f0f0f0;
+}
+
+
+img#contactme { 
+display:inline-block; 
+padding:0px;
+margin:0px;
+
+
 }
