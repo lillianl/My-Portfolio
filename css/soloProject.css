@@ -175,6 +175,10 @@ div h4 {
 
 
 
+
+
+
+
 /*tagline*/
 
 #tagline {
@@ -453,4 +457,11 @@ section div#numberedSection {
 
 section.walkthrough { 
 margin: 50px 0px;
+}
+
+/*main zines*/
+
+div p.poem { 
+padding:3em;
+
 }
