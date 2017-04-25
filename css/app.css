@@ -21,7 +21,6 @@ width: 98%;
 box-sizing:border-box;
 border:1px dashed #000;
 }
-
 */
 
 
@@ -202,6 +201,9 @@ img {
   text-align: center;
 }
 
+
+
+
 /*MAIN*/
 
 
@@ -250,6 +252,8 @@ h2 {
   margin: auto;
   width: 90%;
 }
+
+
 section#perspective div h4 {
   text-align: left;
   font-style:bold;
@@ -257,6 +261,26 @@ section#perspective div h4 {
     border-bottom:0px;
 }
 
+section div p.checkout { 
+
+padding: 3em; 
+font-size: 1.3em;
+line-height: 2em;
+
+}
+
+div p.checkout a {
+  font-family: 'Lato', sans-serif; 
+  color: #3E4E97;
+  font-size: 1em;
+}
+
+
+div p.checkout a:hover {
+  font-family: 'Lato', sans-serif; 
+  color: #F79A6E;
+  font-size: 1em;
+}
 
 
 
@@ -305,11 +329,3 @@ margin:0px;
 }
 
 
-p.now { 
-  font-size: 1.4em;
-  line-height: 1.5em; 
-}
-
-
-
-}
